@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DISC_SDK">
+      <UniqueIdentifier>{b2da1f70-6fc3-4837-95de-0975bc962f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DISC_CLASS">
+      <UniqueIdentifier>{0f9eb80e-5102-4109-8c50-492f376e9141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiscordRPCIVAC1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\connection_win.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\discord_register_win.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\discord_rpc.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\dllmain.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\rpc_connection.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\serialization.cpp">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Source Files\DISC_CLASS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="discord-rpc-master\src\backoff.h">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\rpc_connection.h">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\serialization.h">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\msg_queue.h">
+      <Filter>Source Files\DISC_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Source Files\DISC_CLASS</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeropuertos.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Desktop\iconosrpc\ES.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\desktop\iconosrpc\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\iconosrpc\ES.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
