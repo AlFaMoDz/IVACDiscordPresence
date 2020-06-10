@@ -7,7 +7,7 @@ const std::time_t t = std::time(0);
 void Discord::Init() {
 	DiscordEventHandlers Handle;
 	memset(&Handle, 0, sizeof(Handle));
-	Discord_Initialize("677928094803296291", &Handle, 1, NULL);
+	Discord_Initialize(APP_ID, &Handle, 1, NULL);
 }
 
 void Discord::Update(char* posic, char* fir, char* firNombre) {
